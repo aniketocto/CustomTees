@@ -31,7 +31,7 @@ const Home = () => {
               </h1>
             </motion.div>
             <motion.div className="flex flex-col gap-5">
-              <p className="max-w-md font-normal text-gray-600 text-base">
+              <p className="max-w-md font-normal text-white text-base">
                 Create your unique and exclusive shirt with our brand new 3d
                 cutomization tool. <strong>Unleash your imagination</strong> and
                 define your own style
@@ -41,7 +41,7 @@ const Home = () => {
             type="filled"
             title="Customize it"
             handleClick={()=> state.intro = false}
-            customStyles="w-fit px-4 py-2.5 font-bold text-sm"/>
+            customStyles="w-fit px-4 py-2.5 font-bold text-sm h-10"/>
           </motion.div>
         </motion.section>
       )}
